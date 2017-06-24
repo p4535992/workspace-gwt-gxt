@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="it.abd.gwt_archetype_01">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='it.abd.it.abd.gwt_archetype_01' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/it.abd.gwt_archetype_01/greet" class="it.abd.server.GreetingServiceImpl" />
+
+</module>
